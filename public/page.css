@@ -1,0 +1,171 @@
+<style>
+
+#main{
+  display: flex;
+  flex-direction: column;
+}
+#header{
+  position: fixed;
+  top: 0;
+  opacity: 1.0;
+  background: #FCF565;
+  width:100%;
+  height: 55px;
+  display: flex;
+/*   justify-content: space-around; */
+}
+li{
+  list-style: none;
+  
+}
+#hlink{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 60%;
+}
+.nav-link{
+  color: black;
+  text-decoration: none;
+  
+}
+#header-img{
+  width: 250px;
+  height:55px;
+}
+#nav-bar{
+/*   border: 2px solid red; */
+  width: 100%;
+  align-content: flex-end;
+  margin: 5px 0;
+}
+#home{
+  margin: 40px 0;
+  width: 100%;
+  height: 100%;
+}
+#form{
+  margin-top: -30%;
+  margin-bottom: 20%;
+  padding-left: 60%;
+  padding-right: 5%;
+}
+#input{
+  display:flex;
+}
+#email{
+  height: 45px;
+  width: 70%;
+  border: 0.5px solid black;
+  border-radius: 3px;
+}
+#ver{
+  width:2px;
+  height: 59px;
+  background: black;
+  margin: -8px 10px
+}
+#horz{
+  width: 100%;
+  border-color: black;
+}
+#submit{
+  width: 30%;
+  color: black;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  font-size: 100%;
+}
+#quality{
+  height: 350px;
+  width: 350px;
+}
+#why{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#why1{
+  text-align: center;
+  margin-bottom: 100px;
+}
+#shipping{
+  width: 350px;
+  height: 200px;
+}
+#how{
+  text-align: center;
+}
+#return{
+  height: 300px;
+}
+#price{
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+#container{
+  margin-top: 10%;
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#details{
+  text-align: center;
+  padding: 10px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px gray, 0 6px 10px red;
+}
+#btn{
+  font-size: 20px;
+  width: 110px;
+  height: 40px;
+  background: yellow;
+  border-radius: 10px;
+}
+#prod1{
+  height: 46%;
+  width: 83%;
+}
+#prod2{
+  height: 46%;
+  width: 83%;
+}
+#prod3{
+  height: 46%;
+  width: 80%;
+}
+#footer{
+  background: cyan;
+  opacity: 0.7;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+#links{
+  text-align: right;
+  margin-top: 30px;
+}
+@media (max-width: 950px){
+    #hlink{
+    padding-left: 45%;
+    }
+    #form{
+     margin-top: -40%;
+     padding-left: 50%;
+     padding-right: 5%;
+    }
+}
+@media (max-width: 500px){
+     #form{
+	   margin-top: 0;
+	   margin-right: 15%;	
+	   margin-left: -20%;
+	}
+}
+
+</style>
